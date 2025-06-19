@@ -26,7 +26,12 @@ I realized that for a online card game for friends to play the game together, fu
 2. A card can be moved from one position of the table to another position
 3. For each card, a subset of players see its front and rest of the players would see its back. 
 
-I initiallly made this game in Python https://github.com/year221/cardgameFYF using arcade and zmq. The whole game is configured by https://github.com/year221/cardgameFYF/blob/master/games/zhaopengyou.yaml which defines the possible positions for cards in the table and constraints on each position. 
+I initiallly made this game in Python https://github.com/year221/cardgameFYF using arcade and zmq. The whole game is configured by a yaml file which defines the possible positions for cards in the table and constraints on each position. 
+```
+https://github.com/year221/cardgameFYF/blob/master/games/zhaopengyou.yaml
+```
+A different yaml file could define a different game table. 
+ 
 
 It is not easy to get some of my friends to install Python clients so I converted this game into Javascript while learning how to program in this language. https://github.com/year221/cardgametable The game is built on top of [Phaser](https://phaser.io/) and socket. 
 
