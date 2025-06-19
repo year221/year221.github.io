@@ -1,0 +1,43 @@
+title: year221
+description: Welcome to year221's personal space on the web
+theme: minima
+author: year221
+email: your.email@example.com
+
+# Social media usernames
+github_username: year221
+twitter_username: year221
+linkedin_username: year221
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+url: "https://year221.github.io"
+baseurl: ""
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
