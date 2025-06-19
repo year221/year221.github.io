@@ -32,6 +32,8 @@ It is not easy to get some of my friends to install Python clients so I converte
 
 
 ### Membership Card
+I made this program for a community center that I volunteered for. We have a need to print membership card and the membership information is hosted in www.wildapricot.com. 
+https://github.com/year221/cccmembercard
 
 ## Get In Touch
 
