@@ -29,6 +29,7 @@ collections:
 # Navigation
 header_pages:
   - index.md
+  - blog.md
   - about.md
   - projects.md
 
