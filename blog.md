@@ -17,7 +17,7 @@ Welcome to my blog! Here I share my thoughts on technology, development, and lif
 
 Message broker, process orchestration and robot os. 
 
-[Read more →]({% post_url 2025-06-19-zenoh-nats.md %})
+[Read more →]({% post_url 2025-06-19-zenoh-nats %})
 
 ---
 
